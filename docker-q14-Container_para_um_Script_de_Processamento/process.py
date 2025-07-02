@@ -2,13 +2,12 @@
 import time
 import sys
 
-print("Iniciando o processamento de dados...")
+print("Inicializando o processamento de dados...")
 # Simula um processamento
 time.sleep(2)
-print("Dados processados com sucesso!")
+print("Dados processado!")
 
-# Exemplo de dependência (pandas não é estritamente necessário para este print,
-# mas se a regra pedir uma dependência de exemplo, podemos simulá-la aqui).
+
 try:
     import pandas as pd
     print("Biblioteca pandas disponível e importada.")
